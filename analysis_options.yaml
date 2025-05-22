@@ -1,0 +1,47 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# The following line activates a set of recommended lints for Flutter apps,
+# packages, and plugins designed to encourage good coding practices.
+include: package:flutter_lints/flutter.yaml
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
+#
+# The file format is fully specified in the Dart analyzer source code at
+# https://github.com/dart-lang/sdk/blob/main/pkg/analyzer_cli/lib/src/options.dart
+
+linter:
+  # For details see the Dart linter rules documentation: https://dart.dev/lints
+  #
+  # For a list of lints that are enabled by `package:flutter_lints/flutter.yaml`
+  # see https://github.com/flutter/packages/blob/main/packages/flutter_lints/lib/flutter.yaml.
+  #
+  # For a list of lints that are disabled by `package:flutter_lints/flutter.yaml`
+  # see https://github.com/flutter/packages/blob/main/packages/flutter_lints/lib/flutter.yaml
+  # (search for `rules:`).
+  #
+  # To enable a lint rule, add it to the `rules:` section according to the
+  # Dart linter rules documentation.
+  #
+  # Note: `analyzer > strong-mode > implicit-casts: false` and
+  # `analyzer > strong-mode > implicit-dynamic: false` have been replaced
+  # by `analyzer > errors > implicit-casts: error` and
+  # `analyzer > errors > implicit-dynamic: error`.
+  # See https://github.com/dart-lang/sdk/issues/30779 for details.
+  rules:
+    # avoid_print: false  # Uncomment to disable the `avoid_print` rule
+    # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+
+# analyzer:
+#   exclude:
+#     - path/to/excluded/files/**
+
+# Analyzer settings have changed. Would you like to restart the analysis server?
+# For more information see:
+# * https://github.com/dart-lang/sdk/tree/main/pkg/analyzer#configuring-the-analyzer
+# * https://dart.dev/guides/language/analysis-options 
